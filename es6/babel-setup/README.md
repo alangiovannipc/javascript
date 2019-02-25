@@ -1,5 +1,6 @@
 BABEL
-———— 
+————
+
 $ mkdir my-babel-setup    // Create the folder
 
 $ cd my-babel-setup      // Move to the folder
@@ -17,11 +18,11 @@ $ vim src/example.js	//Create the example.js file and put the next content
     ----------------------------------------------------------------
 $ vim package.json //Edit the package.json and add the next line to the script property and save it
 
-	    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist"
 
 $ vim babel.config.js //Create a babel.config.js and put the next code to make the transformation, save the file
     ----------------------------------------------------    
-         module.exports = {
+     module.exports = {
             presets: [["@babel/env"]]
 	};
     ----------------------------------------------------
