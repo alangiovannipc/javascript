@@ -36,8 +36,8 @@ $ npm run build //Execute the build sentence located in the package.json file th
 $ cat dist/example.js //Show the transformation 
   "use strict";
 
-   var double = function double(value) {
-      return value * 2;
-   };
+   	var double = function double(value) {
+      		return value * 2;
+  	 };
 
    console.log(double(3)); 
