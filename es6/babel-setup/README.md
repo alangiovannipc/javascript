@@ -34,7 +34,8 @@ $ vim babel.config.js //Create a babel.config.js and put the next code to make t
 $ npm run build //Execute the build sentence located in the package.json file that will create the example.js file
 
 $ cat dist/example.js //Show the transformation 
-  "use strict";
+  
+	"use strict";
 
    	var double = function double(value) {
       		return value * 2;
